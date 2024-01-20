@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Table</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4ae57ae73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Creative Pricing Table</h1>
+    <div class="price_table">
+      <div class="box" id="basic">
+        <h2 id="basic1">BASIC</h2>
+        <div class="price" id="basic_price">
+          <i class="fa-solid fa-lightbulb"></i>
+          <h1>$19.99</h1>
+          <h6>per month</h6>
+        </div>
+        <div class="features" id="basic_features">
+          <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amen</p>
+          <p><i class="fa-solid fa-check"></i>basic quality in this range</p>
+          <p><i class="fa-solid fa-xmark"></i>Lorem ipsum dolor sit ame</p>
+          <p><i class="fa-solid fa-xmark"></i>basic quality videos</p>
+        </div>
+        <button onclick="setPrice('basic')" class="btn" id="basic_btn">
+          SELECT PLAN
+        </button>
+      </div>
+
+      <div class="box" id="standard">
+        <h2 id="standard1">STANDARD</h2>
+        <div class="price" id="standard_price">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h1>$99</h1>
+          <h6>per month</h6>
+        </div>
+        <div class="features" id="standard_features">
+          <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amen</p>
+          <p><i class="fa-solid fa-check"></i>premium quality in this range</p>
+          <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit ame</p>
+          <p><i class="fa-solid fa-xmark"></i>hd quality videos</p>
+        </div>
+        <button onclick="setPrice('standard')" class="btn" id="standard_btn">
+          SELECT PLAN
+        </button>
+      </div>
+
+      <div class="box" id="premium">
+        <h2 id="premium1">PREMIUM</h2>
+        <div class="price" id="premium_price">
+          <i class="fa-solid fa-rocket"></i>
+          <h1>$199</h1>
+          <h6>per month</h6>
+        </div>
+        <div class="features" id="premium_features">
+          <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amen</p>
+          <p><i class="fa-solid fa-check"></i>ultimate quality in this range</p>
+          <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit ame</p>
+          <p><i class="fa-solid fa-check"></i>ultra hd quality videos</p>
+        </div>
+        <button onclick="setPrice('premium')" class="btn" id="premium_btn">
+          SELECT PLAN
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
